@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Coders}  Quiz -Congratulations!</title>
+    <link rel="stylesheet" href="./css/style.css">
+          <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h2 class="final-score">Final Score</h2>
+            <h1><span id="finalScore">0 </span><span> points</span></h1>
+            <form action="" method="POST" autocomplete="off">
+                <input type="text" name="username" placeholder="username" id="username">
+                <small><i>Hint: </i>Enter username to enable save.</small>
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled title="Enter name first">Save</button>
+            </form>
+            <!-- <a href="view.html" class="btn">View Answers</a> -->
+            <a href="game.html" class="btn">Play Again</a>
+            <a href="select.html" class="btn">Select New Quiz</a>
+            <a href="index.html" class="btn">Go Home</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-body" class="flex-center flex-column">
+            <p>PUKKA WEB SERVICES &copy; <span id="year">                <script>
+                    document.write(new Date().getFullYear());
+                </script></span></p>
+        
+            <a href="http://qbentil.netlify.app">Bentil {Codes}</a>
+        </div>
+    </div>
+    <script src="./js/end.js"></script>
+</body>
+</html>

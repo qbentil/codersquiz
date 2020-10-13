@@ -1,0 +1,274 @@
+[
+    {
+        "question": "Which of the following is correct about CSS?",
+        "choice1": "CSS is used to control the style of a web document in a simple and easy way.",
+        "choice2": "CSS is the acronym for \"Cascading Style Sheet\"",
+        "choice3": " You can write CSS once and then reuse same sheet in multiple HTML pages",
+        "choice4": " All of the above",
+        "answer": 4
+    },
+    {
+        "question" :"Which of the following property of a anchor element signifies unvisited hyperlinks?",
+        "choice1": ":link",
+        "choice2": ":visited",
+        "choice3": ":hover",
+        "choice4": ":active",
+        "answer": 1
+    },
+    {
+        "question" :"Which of the following property of a table element controls the placement of the table caption?",
+        "choice1": ":border-collapse",
+        "choice2": ":border-spacing",
+        "choice3": ":caption-side",
+        "choice4": ":empty-cells",
+        "answer": 3
+    },
+    {
+        "question" :"The background color of the content also covers:",
+        "choice1": "margins",
+        "choice2": "padding and margins",
+        "choice3": "body",
+        "choice4": "padding",
+        "answer": 4
+    },
+    {
+        "question" :"How do you make a list not display bullet points?",
+        "choice1": "list-style-type: no-bullet",
+        "choice2": "bulletpoints: none",
+        "choice3": "list-style-type: none",
+        "choice4": "list: none",
+        "answer": 3
+    },
+    {
+        "question" :"Which 'A' and 'B' pair makes the cursor appear as a pointer on paragraphs:<br><i class = 'code-in-question'> p{<br> &nbsp;&nbsp;&nbsp; A: B <br>}</i>",
+        "choice1": "Default : Cursor",
+        "choice2": "Cursor : Default",
+        "choice3": "Pointer: Cursor",
+        "choice4": "Cursor: Pointer",
+        "answer": 4
+    },
+    {
+        "question" :"What value of the \"display\" property makes the inline element act as a blocking level element?",
+        "choice1": "block",
+        "choice2": "table-cell",
+        "choice3": "inline",
+        "choice4": "list-item",
+        "answer": 1
+    },
+    {
+        "question" :"Make the element with the id=\"mystyle\" disappear:<br><i class = 'code-in-question'> #mystyle{<br> &nbsp;&nbsp;&nbsp;   display:_______; <br>}</i>",
+        "choice1": "block",
+        "choice2": "none",
+        "choice3": "blank",
+        "choice4": "invisible",
+        "answer": 2
+    },
+    {
+        "question" :"Why is the \"static\" value used in positioning?",
+        "choice1": "To make the element unmovable",
+        "choice2": "To prohibit the styling of the element",
+        "choice3": "To make the element run in the natural order of the page",
+        "choice4": "To make the element static",
+        "answer": 3
+    },
+    {
+        "question" :"Select from the options below to fix the paragraph to 100px from the top and 50px from the left:<br><i class = 'code-in-question'> p{<br> &nbsp;&nbsp;&nbsp; _____: fixed;<br>&nbsp;&nbsp;&nbsp;_____: 50px;<br>&nbsp;&nbsp;&nbsp;_____: 100px; <br>}</i>",
+        "choice1": "Position, Left, Top",
+        "choice2": "Top, Right, Left",
+        "choice3": "Top, Left, Right",
+        "choice4": "Position, Top, Left",
+        "answer": 1
+    },
+    {
+        "question" :"What is the purpose of the \"relative\" value?",
+        "choice1": "It puts the element relative to the containing block",
+        "choice2": "It puts the element relative to the browser window",
+        "choice3": "It puts the element relative to the normal flow",
+        "choice4": "None of the above",
+        "answer": 3
+    },
+    {
+        "question" :"By default which element in the markup will overlap the others when elements begin stacking?",
+        "choice1": "none",
+        "choice2": "the last element",
+        "choice3": "the first element",
+        "choice4": "all elements",
+        "answer": 2
+    },
+    {
+        "question" :"In order to make the z-index property work you must ...",
+        "choice1": "position elements",
+        "choice2": "use floating",
+        "choice3": "use the overflow property",
+        "choice4": "clear floats",
+        "answer": 1
+    },
+    {
+        "question" :"If you give a negative value to the \"top\" property, in which direction will the box be moved?",
+        "choice1": "up",
+        "choice2": "left",
+        "choice3": "right",
+        "choice4": "down",
+        "answer": 1
+    },
+    {
+        "question" :"When the \"float\" property is used with the values of \"left\" or \"right\", anything else that lives in the containing element will:",
+        "choice1": "become invisible",
+        "choice2": "flow around the element associated with the \"float\" property",
+        "choice3": "be moved down of the element associated with the \"float\" property",
+        "choice4": "become static",
+        "answer": 2
+    },
+    {
+        "question" :"Assign width of 500px to the \"text\" element and enable fixed scrollbars:<br><i class = 'code-in-question'> #text{<br> &nbsp;&nbsp;&nbsp; overflow:________;<br>&nbsp;&nbsp;&nbsp;height: 200px;<br>&nbsp;&nbsp;&nbsp;width: ________; <br>}</i>",
+        "choice1": "visible, 500px",
+        "choice2": "visible, 500",
+        "choice3": "scroll, 500px",
+        "choice4": "scroll, 500",
+        "answer": 3
+    },
+    {
+        "question" :"In the background-clip property, which value allows for the creation of transparent borders?",
+        "choice1": "none",
+        "choice2": "border-box",
+        "choice3": "margin-box",
+        "choice4": "padding-box",
+        "answer": 4
+    },
+    {
+        "question" :"Which of the following is not a filter function?",
+        "choice1": "hue-rotate",
+        "choice2": "inverse",
+        "choice3": "invert",
+        "choice4": "contrast",
+        "answer": 4
+    },
+    {
+        "question" :"What is the default value of the position property?",
+        "choice1": "relative",
+        "choice2": "fixed",
+        "choice3": "absolute",
+        "choice4": "static",
+        "answer": 4
+    },
+    {
+        "question" :"How do you select all p elements inside a div element?",
+        "choice1": "div.p",
+        "choice2": "div p ",
+        "choice3": "div + p",
+        "choice4": "div>p",
+        "answer": 2
+    },
+    {
+        "question" :"How do you select elements with class name 'test'?",
+        "choice1": ".test",
+        "choice2": "*test",
+        "choice3": "test",
+        "choice4": "#test",
+        "answer": 1
+    },
+    {
+        "question" :"How do you make a list that lists its items with squares?",
+        "choice1": "list-style-type: square;",
+        "choice2": "list-type: square;",
+        "choice3": "list: square;",
+        "choice4": "list-style: square;",
+        "answer": 1
+    },
+    {
+        "question" :"How do you display a border like this:<br><i class = 'code-in-question'>&nbsp;&nbsp;&nbsp;The top border = 10 pixels<br>&nbsp;&nbsp;&nbsp;The bottom border = 5 pixels<br>&nbsp;&nbsp;&nbsp;The left border = 20 pixels<br>&nbsp;&nbsp;&nbsp;The right border = 1pixel?</i>",
+        "choice1": "border-width:10px 1px 5px 20px; ",
+        "choice2": "border-width:10px 5px 20px 1px;",
+        "choice3": "border-width:5px 20px 10px 1px;",
+        "choice4": "border-width:10px 20px 5px 1px;",
+        "answer": 1
+    },
+    {
+        "question" :"Which property is used to change the font of an element?",
+        "choice1": "font-weight",
+        "choice2": "font-style",
+        "choice3": "font-family",
+        "choice4": "font",
+        "answer": 3
+    },
+    {
+        "question" :"How do you make each word in a text start with a capital letter?",
+        "choice1": "text-style:capitalize",
+        "choice2": "You can't do that with CSS",
+        "choice3": "transform:capitalize",
+        "choice4": "text-transform:capitalize",
+        "answer": 4
+    },
+    {
+        "question" :"How do you display hyperlinks without an underline?",
+        "choice1": "a {text-decoration:no-underline;}",
+        "choice2": "a {text-decoration:none;}",
+        "choice3": "a {underline:none;}",
+        "choice4": "a {decoration:no-underline;}",
+        "answer": 2
+    },
+    {
+        "question" :"What is the correct CSS syntax for making all the <p> elements bold?",
+        "choice1": "<p style=\"text-size:bold;\">",
+        "choice2": "p {font-weight:bold;}",
+        "choice3": "p {text-size:bold;}",
+        "choice4": "<p style=\"font-size:bold;\">",
+        "answer": 2
+    },
+    {
+        "question" :"Which CSS property controls the text size?",
+        "choice1": "text-size",
+        "choice2": "text-style",
+        "choice3": "font-size",
+        "choice4": "font-style",
+        "answer": 3
+    },
+    {
+        "question" :"Which CSS property controls the text size?",
+        "choice1": "text-size",
+        "choice2": "text-style",
+        "choice3": "font-size",
+        "choice4": "font-style",
+        "answer": 3
+    },
+    {
+        "question" :"How do you add a background color for all h1 elements?",
+        "choice1": "h1 {background-color:#FFFFFF;} ",
+        "choice2": "h1.all {background-color:#FFFFFF;}",
+        "choice3": "all.h1 {background-color:#FFFFFF;}",
+        "choice4": "*.h1 {background-color:#FFFFFF;}",
+        "answer": 1
+    },
+    {
+        "question" :"How do you insert a comment in a CSS file?",
+        "choice1": "// this is a comment",
+        "choice2": "// this is a comment //",
+        "choice3": "#this is a comment",
+        "choice4": "/* this is a comment */",
+        "answer": 4
+    },
+    {
+        "question" :"Which is the correct CSS syntax?",
+        "choice1": "body {color: black;}",
+        "choice2": "body:color=black;",
+        "choice3": "{body;color:black;}",
+        "choice4": "{body:color=black;}",
+        "answer": 1
+    },
+    {
+        "question" :"Which HTML attribute is used to define inline styles?",
+        "choice1": "style",
+        "choice2": "font",
+        "choice3": "styles",
+        "choice4": "class",
+        "answer": 1
+    },
+    {
+        "question" :"What is the correct HTML for referring to an external style sheet?",
+        "choice1": "<link rel=\"stylesheet\" type=\"text/css\" file=\"mystyle.css\"> ",
+        "choice2": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\"> ",
+        "choice3": "<stylesheet>mystyle.css</stylesheet>",
+        "choice4": "<style src=\"mystyle.css\">",
+        "answer": 2
+    }
+]

@@ -1,0 +1,249 @@
+[
+    {
+      "question": " How do you write 'Hello World' in an alert box?",
+      "choice1": "msgBox('Hello World');",
+      "choice2": "alertBox('Hello World');",
+      "choice3": "msg('Hello World');",
+      "choice4": "alert('Hello World');",
+      "answer": 4
+    },
+    {
+      "question": "What is the \"=\"(equal sign) called in JavaScript?",
+      "choice1": "Is equivalent",
+      "choice2": "Assignment operator",
+      "choice3": "eval",
+      "choice4": "Equal to",
+      "answer": 2
+    },
+    {
+      "question": "What characters cannot be used in variable names?",
+      "choice1": "Underscore sign (_)",
+      "choice2": "Numbers",
+      "choice3": "Special symbols(%, #, etc.)",
+      "choice4": "Letters",
+      "answer": 3
+    },
+    {
+      "question": "What built in property is used to count the number of characters in an object's property?",
+      "choice1": "size",
+      "choice2": "width",
+      "choice3": "max",
+      "choice4": "length",
+      "answer": 4
+    },
+    {
+      "question": "How many case statements are often used in the \"Switch\" statement?",
+      "choice1": "One for each possible answer",
+      "choice2": "Only 5",
+      "choice3": "2 - for \"true\" and \"false\"",
+      "choice4": "None of the above",
+      "answer": 1
+    },
+    {
+      "question": "What is the output of the following statment? <br><i class = 'code-in-question'> function multNumbers(a,b){<br> &nbsp;&nbsp;&nbsp;var c = a*b; <br>} <br></i> multNumbers(2,6);",
+      "choice1": "24",
+      "choice2": "nothing",
+      "choice3": "12",
+      "choice4": "8",
+      "answer": 2
+    },
+    {
+      "question": "Inside which HTML element do we put the JavaScript?",
+      "choice1": "<script>",
+      "choice2": "<javascript>",
+      "choice3": "<scripting>",
+      "choice4": "<js>",
+      "answer": 1
+    },
+    {
+      "question": "What is the correct JavaScript syntax to change the content of an HTML element with id=\"demo\"",
+      "choice1": "document.getElementByName(\"p\").innerHTML = \"Hello World!\";",
+      "choice2": "document.getElement(\"p\").innerHTML = \"Hello World!\";",
+      "choice3": "#demo.innerHTML = \"Hello World!\";",
+      "choice4": "document.getElementById(\"demo\").innerHTML = \"Hello World!\";",
+      "answer": 4
+    },
+    {
+      "question": "How do you create a function in JavaScript?",
+      "choice1": "function:myFunction() ",
+      "choice2": "function myFunction()",
+      "choice3": "function = myFunction()",
+      "choice4": "myFunction()",
+      "answer": 2
+    },
+    {
+      "question": "How do you call a function named \"myFunction\"?",
+      "choice1": "call myFunction() ",
+      "choice2": "call function myFunction()",
+      "choice3": "myFunction()",
+      "choice4": "myFunction",
+      "answer": 3
+    },
+    {
+      "question": "How to write an IF statement in JavaScript?",
+      "choice1": "if (i == 5) ",
+      "choice2": "if i == 5 then",
+      "choice3": "if i = 5",
+      "choice4": "if i = 5 then",
+      "answer": 1
+    },
+    {
+      "question": "How to write an IF statement for executing some code if \"i\" is NOT equal to 5?",
+      "choice1": "if (i <> 5)",
+      "choice2": "if i <> 5",
+      "choice3": "if i =! 5 then",
+      "choice4": "if (i != 5)",
+      "answer": 4
+    },
+    {
+      "question": "How does a WHILE loop start?",
+      "choice1": "while (i <= 10; i++)",
+      "choice2": "while()",
+      "choice3": "while (i <= 10)",
+      "choice4": "while i = 1 to 10",
+      "answer": 3
+    },
+    {
+      "question": "How does a FOR loop start?",
+      "choice1": "for i = 1 to 5",
+      "choice2": "for (i = 0; i <= 5; i++)",
+      "choice3": "for (i <= 5; i++)",
+      "choice4": "for (i = 0; i <= 5)",
+      "answer": 2
+    },
+    {
+      "question": "How can you add a comment in a JavaScript?",
+      "choice1": "//This is a comment ",
+      "choice2": "<!--This is a comment-->",
+      "choice3": "#This is a comment#",
+      "choice4": "``This is a comment``",
+      "answer": 1
+    },
+    {
+      "question": "What is the correct way to write a JavaScript array?",
+      "choice1": "var colors = \"red\", \"green\", \"blue\"",
+      "choice2": "var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+      "choice3": "var colors = (1:\"red\", 2:\"green\", 3:\"blue\")",
+      "choice4": "var colors = [\"red\", \"green\", \"blue\"]  ",
+      "answer": 4
+    },
+    {
+      "question": "How do you round the number 7.25, to the nearest integer?",
+      "choice1": "Math.rnd(7.25)",
+      "choice2": "round(7.25)",
+      "choice3": "Math.round(7.25)",
+      "choice4": "rnd(7.25)",
+      "answer": 3
+    },
+    {
+      "question": "How do you find the number with the highest value of x and y?",
+      "choice1": "Math.ceil(x, y)",
+      "choice2": "top(x, y)",
+      "choice3": "ceil(x, y)",
+      "choice4": "Math.max(x, y)",
+      "answer": 4
+    },
+    {
+      "question": "How can you detect the client's browser name?",
+      "choice1": "client.browserName",
+      "choice2": "navigator.appName ",
+      "choice3": "client.navName",
+      "choice4": "browser.name",
+      "answer": 2
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "choice1": "onclick",
+      "choice2": "onmouseclick",
+      "choice3": "onchange",
+      "choice4": "onmouseover",
+      "answer": 1
+    },
+    {
+      "question": "How do you declare a JavaScript variable \"carName\"",
+      "choice1": "v carName;",
+      "choice2": "$carName",
+      "choice3": "variable carName;",
+      "choice4": "var carName;",
+      "answer": 4
+    },
+    {
+      "question": "What is the output of this code?<br><i class = 'code-in-question'>function letItBe() {<br> &nbsp;&nbsp;&nbsp;  let v = 2;<br>&nbsp;&nbsp;&nbsp;if (true) {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;let v = 4;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(v);<br>}<br>&nbsp;&nbsp;&nbsp;console.log(v);<br>}<br>letItBe();</i>",
+      "choice1": "4 4",
+      "choice2": "2 2",
+      "choice3": "4 2",
+      "choice4": "2 4",
+      "answer": 3
+    },
+    {
+      "question": "The \"this\" keyword in a method means:",
+      "choice1": "The name of the web page",
+      "choice2": "The current object",
+      "choice3": "The name of the given method",
+      "choice4": "None of the above",
+      "answer": 2
+    },
+    {
+      "question": "In order to use the object's properties within a function, use:",
+      "choice1": "The \"this\" keyword",
+      "choice2": "The \"var\" keyword",
+      "choice3": "Just the name of the property",
+      "choice4": "The function's name",
+      "answer": 1
+    },
+    {
+      "question": "An object properties are similar to variables; methods are similar to:",
+      "choice1": "conditionals",
+      "choice2": "operators",
+      "choice3": "functions",
+      "choice4": "properties",
+      "answer": 3
+    },
+    {
+      "question": "The \"break\" statement:",
+      "choice1": "Stops the whole script",
+      "choice2": "Ignores the current iteration and passes to the next",
+      "choice3": "Ends the execution of the loop",
+      "choice4": "error",
+      "answer": 2
+    },
+    {
+      "question": "What is the output of this code?<br><i class = 'code-in-question'>var x = 0;<br>while (x<6) {<br>&nbsp;&nbsp;&nbsp;x++;<br>}<br>document.write(x);</i>",
+      "choice1": "5",
+      "choice2": "3",
+      "choice3": "8",
+      "choice4": "6",
+      "answer": 4
+    },
+    {
+      "question": "What keyword is used to end the \"else if\" statement?",
+      "choice1": "else",
+      "choice2": "stop",
+      "choice3": "end",
+      "choice4": "break",
+      "answer": 1
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

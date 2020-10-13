@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Coders}  Quiz -Select quiz type!</title>
+    <link rel="stylesheet" href="./css/style.css">
+          <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <!-- <div class="header">
+                <div id="header-body" class="flex-center flex-column">
+                    <p>{Coders} Quiz</p>
+                </div>
+            </div> -->
+            <h1 >-- Select Quiz --</h1>
+            <button class="btn" onclick="getQuestionSet('general')" id="general">General</button>
+            <button class="btn" onclick="getQuestionSet('html')" id="html">HTML</button>
+            <button class="btn" onclick="getQuestionSet('css')" id="css">CSS</button>
+            <button class="btn" onclick="getQuestionSet('javascript')"  id="javascript">JavaScript</button>
+            <button class="btn" onclick="getQuestionSet('php')"  id="php">PHP</button>
+            <button class="btn" onclick="getQuestionSet('python')"  id="python" >Python</button>
+            <button class="btn" onclick="getQuestionSet('java')"  id="java">Java</button>
+            <!-- <button class="btn" onclick="getQuestionSet('c++')"  id="c++" disabled>C++</button>
+            <button class="btn" onclick="getQuestionSet('c')"  id="c" disabled>C</button> -->
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-body" class="flex-center flex-column">
+            <p>PUKKA WEB SERVICES&copy; <span id="year">
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+            </span></p>
+        
+            <a href="http://qbentil.netlify.app">Bentil {Codes} </a>
+        </div>
+    </div>
+    <script src="./js/select.js"></script>
+    <!-- <script src="./js/end.js"></script> -->
+</body>
+</html>

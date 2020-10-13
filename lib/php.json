@@ -1,0 +1,331 @@
+[
+{
+    "question": " Which of the following is true about php.ini file?",
+    "choice1": "The PHP configuration file, php.ini, is the final and most immediate way to affect PHP's functionality.",
+    "choice2": "The php.ini file is read each time PHP is initialized.",
+    "choice3": "All of the above",
+    "choice4": "None of the above",
+    "answer":3
+},
+{
+    "question": "Which of the following is correct about determine the truth of any value not already of the Boolean type?",
+    "choice1": " If the value is a number, it is false if exactly equal to zero and true otherwise.",
+    "choice2": " If the value is a string, it is false if the string is empty (has zero characters) or is the string \"0\", and is true otherwise.",
+    "choice3": "Values of type NULL are always false.",
+    "choice4": "All of the above",
+    "answer":4
+},
+{
+    "question": "Which of the following magic constant of PHP returns full path and filename of the file?",
+    "choice1": " _LINE_",
+    "choice2": "_FILE_",
+    "choice3": "_FUNCTION_",
+    "choice4": "_CLASS_",
+    "answer":1
+},
+{
+    "question": "Which of the following operator is used to concatenate two strings in PHP?",
+    "choice1": ".",
+    "choice2": "+",
+    "choice3": "Append",
+    "choice4": "None of the above",
+    "answer":1
+},
+{
+    "question": "Which of the following is used to get information sent via get method in PHP?",
+    "choice1": " $_GET",
+    "choice2": "$GET",
+    "choice3": "$GETREQUEST",
+    "choice4": "None of the above",
+    "answer":1
+},
+{
+    "question": "Which of the following is used to get cookies?",
+    "choice1": "getcookie() function",
+    "choice2": "$_COOKIE variable",
+    "choice3": "isset() function",
+    "choice4": "None of the above",
+    "answer":2
+},
+{
+    "question": "Which of the following is an associative array of variables passed to the current script via HTTP cookies?",
+    "choice1": "$GLOBALS",
+    "choice2": "$_SERVER",
+    "choice3": "$_COOKIE",
+    "choice4": "$_SESSION",
+    "answer":3
+},
+{
+    "question": "Which of the following gives a string containing PHP script file name in which it is called?",
+    "choice1": " $_PHP_SELF",
+    "choice2": "$php_errormsg",
+    "choice3": "$_COOKIE",
+    "choice4": "$_SESSION",
+    "answer":1
+},
+{
+    "question": "Which of the following is true about php.ini file?",
+    "choice1": "The PHP configuration file, php.ini, is the final and most immediate way to affect PHP's functionality.",
+    "choice2": "The php.ini file is read each time PHP is initialized.",
+    "choice3": "Both of the above.",
+    "choice4": "None of the above",
+    "answer":3
+},
+{
+    "question": "What does PHP stand for?",
+    "choice1": "Preprocessed Hypertext Page",
+    "choice2": "Hypertext Markup Language",
+    "choice3": "PHP: Hypertext Preprocessor ",
+    "choice4": "Hypertext Transfer Protocol",
+    "answer":3
+},
+{
+    "question": "WWhat value is printed for \"a\" below<br><i class = 'code-in-question'><?php<br> &nbsp;&nbsp;&nbsp;$a = 1;<br>&nbsp;&nbsp;&nbsp;function Test(){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo \"\"a = $a\"\";}<br>&nbsp;&nbsp;&nbsp;Test();<br>?></i>",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "no value",
+    "answer":4
+},
+{
+    "question": " What will be printed by the code below?<i class = 'code-in-question'><?php<br> &nbsp;&nbsp;&nbsp;$a = 1;<br>&nbsp;&nbsp;&nbsp;function Test(){&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ECHO :\"\"HELLO WORLD!\"\";}<br>&nbsp;&nbsp;&nbsp;Test();<br>?></i>",
+    "choice1": "HELLO WORLD!",
+    "choice2": "nothing",
+    "choice3": "its a compiler error, the code won't run",
+    "choice4": "hello world!",
+    "answer":1
+},
+{
+    "question": "Which of the following is the way to create comments in PHP?",
+    "choice1": "// commented code to end of line",
+    "choice2": "/* commented code here */",
+    "choice3": "# commented code to end of line",
+    "choice4": "All of the above",
+    "answer":4
+},
+{
+    "question": "A value that has no defined value is expressed in PHP with the following keyword:",
+    "choice1": "undef",
+    "choice2": "null",
+    "choice3": "None",
+    "choice4": "There is no such concept in PHP",
+    "answer":2
+},
+{
+    "question": "What gets printed?<i class = 'code-in-question'><br>$var = \"false\";<br>if ($var) {&nbsp;&nbsp;&nbsp;echo 'true';}else {<br>&nbsp;&nbsp;&nbsp;echo 'false';<br>}</i>",
+    "choice1": "true",
+    "choice2": "false",
+    "choice3": "error",
+    "choice4": "none of the above",
+    "answer":1
+},
+{
+    "question": "Which of the following is used to declare a constant",
+    "choice1": "const",
+    "choice2": "constant",
+    "choice3": "define",
+    "choice4": "#pragma",
+    "choice5": "def",
+    "answer":4
+},
+{
+    "question": "What will be printed?<i class = 'code-in-question'><br>$var = \"0\";<br>if ($var) {&nbsp;&nbsp;&nbsp;echo 'true';}else {<br>&nbsp;&nbsp;&nbsp;echo 'false';<br>}</i>",
+    "choice1": "true",
+    "choice2": "false",
+    "choice3": "error",
+    "choice4": "none of the above",
+    "answer":2
+},
+{
+    "question": " What will be the value of $var?<i class = 'code-in-question'><br>$var = 1 / 2;</i>",
+    "choice1": "0",
+    "choice2": "0.5",
+    "choice3": "1",
+    "choice4": "2",
+    "answer":2
+},
+{
+    "question": "How do we access the value of 'd' in this array?<i class = 'code-in-question'><br>$a = array(<br>&nbsp;&nbsp;&nbsp;'a',<br>&nbsp;&nbsp;&nbsp; 3 => 'b',<br>&nbsp;&nbsp;&nbsp;1 => 'c',<br>&nbsp;&nbsp;&nbsp;'d'<br>);</i>",     
+    "choice1": "$a[1]",
+    "choice2": "$a[2]",
+    "choice3": "$a[3]",
+    "choice4": "$a[4]",
+    "answer":4
+},
+{
+    "question": "Which of the following is NOT a magic predefined constant?",
+    "choice1": "__LINE__",
+    "choice2": "__FILE__",
+    "choice3": "__DATE__",
+    "choice4": "__CLASS__",
+    "choice5": "__METHOD__",
+    "answer":3
+},
+{
+    "question": "What will be printed?<i class = 'code-in-question'><br>$a = array();<br>if ($a == null) {&nbsp;&nbsp;&nbsp;echo 'true';}else {<br>&nbsp;&nbsp;&nbsp;echo 'false';<br>}</i>",
+    "choice1": "true",
+    "choice2": "false",
+    "choice3": "error",
+    "choice4": "none of the above",
+    "answer":1
+},
+{
+    "question": "What will be printed<i class = 'code-in-question'><br>if ($null === false) {&nbsp;&nbsp;&nbsp;echo 'true';}else {<br>&nbsp;&nbsp;&nbsp;echo 'false';<br>}</i>",
+    "choice1": true,
+    "choice2": false,
+    "choice3": "there is a syntax error",
+    "choice4": "true",
+    "answer":2
+},
+{
+    "question": "What gets printed?<i class = 'code-in-question'><?php<br> &nbsp;&nbsp;&nbsp;    $RESULT = 11 + 011 + 0x11;<br>&nbsp;&nbsp;&nbsp    echo $RESULT;<br>?></i>",
+    "choice1": 11,
+    "choice2": 22,
+    "choice3": 33,
+    "choice4": 37,
+    "answer":2
+},
+{
+    "question": "What will be the value of $var below?<i class = 'code-in-question'><br>$var = true ? '1' : false ? '2' : '3';</i>",
+    "choice1": "1",
+    "choice2": "2",
+    "choice3": "3",
+    "choice4": "4",
+    "answer":2
+},
+{
+    "question": "What will be printed?<i class = 'code-in-question'><br><br>if ('2' == '02') {&nbsp;&nbsp;&nbsp;echo 'true';}else {<br>&nbsp;&nbsp;&nbsp;echo 'false';<br>}</i>",
+    "choice1": true,
+    "choice2": false,
+    "choice3": "\"false\"",
+    "choice4": "\"true\"",
+    "answer":1
+},
+{
+    "question": "Which of the following is NOT a valid PHP comparison operator?",
+    "choice1": "!=",
+    "choice2": ">=",
+    "choice3": "&&&",
+    "choice4": "<>",
+    "choice5": "===",
+    "answer":3
+},
+{
+    "question": "What will be printed?<i class = 'code-in-question'><br>$var = 'a';<br>$VAR = 'b';<br>echo $var$VAR;</i>",
+    "choice1": "aa",
+    "choice2": "bb",
+    "choice3": "ab",
+    "choice4": "ba",
+    "answer":3
+},
+{
+    "question": "What will be printed?<i class = 'code-in-question'><br>$a = array(<br>&nbsp;&nbsp;&nbsp;null => 'a',<br>&nbsp;&nbsp;&nbsp; true => 'b',<br>&nbsp;&nbsp;&nbsp;false => 'c',<br>&nbsp;&nbsp;&nbsp; 0 => 'd',<br>&nbsp;&nbsp;&nbsp;1 => 'e',<br>&nbsp;&nbsp;&nbsp;'' => 'f'<br>)<br>echo count($a);;</i>",
+    "choice1": "2",
+    "choice2": "3",
+    "choice3": "4",
+    "choice4": "5",
+    "answer":2
+},
+{
+    "question": "What gets printed?<i class = 'code-in-question'><br>class MyException extends Exception {}<br>try {&nbsp;&nbsp;&nbsp;throw new MyException('Oops!');<br>} catch (Exception $e) {<br>&nbsp;&nbsp;&nbsp;echo \"Caught Exception\";<br>} catch (MyException $e) { &nbsp;&nbsp;&nbsp; echo \"Caught MyException\";<br>}</i>",
+    "choice1": "Caught Exception",
+    "choice2": "Caught MyException",
+    "choice3": "Sythax error",
+    "choice4": "My Exception",
+    "answer":1
+},
+{
+    "question": "Which statement about the code below is correct?<i class = 'code-in-question'><br>class A {}<br>class B {}<br> class C extends A, B {}</i>",
+
+    "choice1": "the code is perfectly fine",
+    "choice2": "classes can not be empty",
+    "choice3": "class C can not extend both A and B",
+    "choice4": "qualifiers 'public' or 'private' are missing in class definitions",
+    "answer":3
+},
+{
+    "question": "PHP server scripts are surrounded by delimiters, which?",
+    "choice1": "<?php...?>",
+    "choice2": "<script>...</script>",
+    "choice3": "<&>...</&>",
+    "choice4": "<?php>...</?>",
+    "answer":1
+},
+{
+    "question": "All variables in PHP start with which symbol?",
+    "choice1": "$",
+    "choice2": "&",
+    "choice3": "!",
+    "choice4": "?",
+    "answer":1
+},
+{
+    "question": "The PHP syntax is most similar to:",
+    "choice1": "JavaScript",
+    "choice2": "VBScript",
+    "choice3": "Perl and C",
+    "choice4": "Python",
+    "answer":3
+},
+{
+    "question": "How do you get information from a form that is submitted using the \"get\" method?",
+    "choice1": "$_GET[];",
+    "choice2": "Request.Form;",
+    "choice3": "Request.QueryString;",
+    "answer":1
+},
+{
+    "question": "When using the POST method, variables are displayed in the URL:",
+    "choice1": "true",
+    "choice2": "false",
+    "answer":2
+},
+{
+    "question": "In PHP you can use both single quotes ( ' ' ) and double quotes ( \" \" ) for strings:",
+    "choice1": "false",
+    "choice2": "true",
+    "answer":2
+},
+{
+    "question": "What is the correct way to create a function in PHP?",
+    "choice1": "function myFunction()",
+    "choice2": "create myFunction()",
+    "choice3": "new_function myFunction()",
+    "answer":1
+},
+{
+    "question": "PHP allows you to send emails directly from a script",
+    "choice1": "True",
+    "choice2": "False",
+    "answer":1
+},
+{
+    "question": "What is the correct way to add 1 to the $count variable?",
+    "choice1": "++count",
+    "choice2": "$count =+1",
+    "choice3": "$count++;",
+    "choice4": "count++;",
+    "answer":3
+},
+{
+    "question": "Which one of these variables has an illegal name?",
+    "choice1": "$my-Var",
+    "choice2": "$my_Var",
+    "choice3": "$myVar",
+    "answer":1
+},
+{
+    "question": "In PHP, the only way to output text is with echo.?",
+    "choice1": "False",
+    "choice2": "True",
+    "answer":1
+},
+{
+    "question": "How do you create an array in PHP?",
+    "choice1": "$cars = array[\"Volvo\", \"BMW\", \"Toyota\"];",
+    "choice2": "$cars = \"Volvo\", \"BMW\", \"Toyota\";",
+    "choice3": "$cars = array(\"Volvo\", \"BMW\", \"Toyota\");",
+    "choice4": "Any of the above is acceptable",
+    "answer":3
+}
+]

@@ -1,0 +1,234 @@
+[
+    {
+        "question" :"To distribute your application to different platforms, How many JAVA versions do you need to create?",
+        "choice1": "One for each",
+        "choice2": "Two versions",
+        "choice3": "Just one version",
+        "choice4": "None of the above",
+        "answer": 3
+    },
+    {
+        "question" :"Which of the following statments is true?",
+        "choice1": "Java is used only in web and mobile applications",
+        "choice2": "Java is used only in NASA's space related applications",
+        "choice3": "Java has a huge developer community",
+        "choice4": "Java is the same as JavaScript",
+        "answer": 3
+    },
+    {
+        "question" :"Single-line comments are created in Java using:",
+        "choice1": "**characters at the beginnig of the line",
+        "choice2": "//characters at the beginnig of the line",
+        "choice3": "*/characters at the beginnig of the line",
+        "choice4": "//characters at the end of the line",
+        "answer": 2
+    },
+    {
+        "question" :"Which method prints text in a Java program?",
+        "choice1": "System.out()",
+        "choice2": "out.writeText()",
+        "choice3": "System.printText()",
+        "choice4": "System.out.println()",
+        "answer": 4
+    },
+    {
+        "question" :"You can add a Java doc style comment by using:",
+        "choice1": "// AND */ characters to wrap comment",
+        "choice2": "/** AND */ characters to wrap comment",
+        "choice3": "//characters at the beginnig of the line",
+        "choice4": "/* AND */  characters to wrap comment",
+        "answer": 2
+    },
+    {
+        "question" :"Which variable type would you use for a city name?",
+        "choice1": "String",
+        "choice2": "int",
+        "choice3": "Integer",
+        "choice4": "double",
+        "answer": 1
+    },
+    {
+        "question" :"What value is stored in the result variable?<br><i class = 'code-in-question'>int x = 8, y = 5; <br> int result = x%y;</i>",
+        "choice1": "1.6",
+        "choice2": "0.625",
+        "choice3": "3",
+        "choice4": "1",
+        "answer": 3
+    },
+    {
+        "question" :"Fill in the blanks to print 11.<br><i class = 'code-in-question'>int a = 10;<br> __a; <br> System.out.println(a);</i>",
+        "choice1": "++",
+        "choice2": "+",
+        "choice3": "--",
+        "choice4": "-",
+        "answer": 1
+    },
+    {
+        "question" :"Fill in the missing A and B of the following code to print 13.<br><i class = 'code-in-question'>int x = 25;<br>int y;<br> y = A-12; <br> System.out.println(B);</i>",
+        "choice1": "A = y, B = y",
+        "choice2": "A = x, B = x",
+        "choice3": "A = 13, B = x",
+        "choice4": "A = x, B = y",
+        "answer": 4
+    },
+    {
+        "question" :"Which statement in regard to the char data type is true?",
+        "choice1": "'K' is a char",
+        "choice2": "\"Hello\" is a char",
+        "choice3": "char is used to store numberic values",
+        "choice4": "char is the same as string",
+        "answer": 1
+    },
+    {
+        "question" :"In every Java program,.........",
+        "choice1": "there must ba at least two variables declared.",
+        "choice2": "there must be a method called 'main'.",
+        "choice3": "all the variables must be integers",
+        "choice4": "there must a comment.",
+        "answer": 2
+    },
+    {
+        "question" :"Fill in the blanks to print \"Yeah\".<br><i class = 'code-in-question'>int x = 5;<br>__(x==5){ <br> &nbsp;&nbsp;&nbsp;System.out.println(\"Yeah\");<br>}</i>",
+        "choice1": "while",
+        "choice2": "for",
+        "choice3": "switch",
+        "choice4": "if",
+        "answer": 4
+    },
+    {
+        "question" :"Fill in the blanks to print the greater number.<br><i class = 'code-in-question'>int x = 5;<br>int y = 5;<br>__(x > y){ <br> &nbsp;&nbsp;&nbsp;System.out.println(_____);<br>}____{<br>&nbsp;&nbsp;&nbsp;System.out.ptintln(y);<br>}</i>",
+        "choice1": "if, else, x",
+        "choice2": "if, x, else",
+        "choice3": "if, else, y",
+        "choice4": "if, y, else",
+        "answer": 2
+    },
+    {
+        "question" :"Select the correct statements about && operator",
+        "choice1": "a && b is true if either a or b is true",
+        "choice2": "a && b is false if both a and b are true",
+        "choice3": "a && b is true if both a and b are true",
+        "choice4": "a && b is true if a is true and b is false",
+        "answer": 3
+    },
+    {
+        "question" :"What is the output of this code?<i class = 'code-in-question'><br>String array[ ][ ] = {{\"Hey\", \"John\", \"Bye\"}, {\"John\", \"Johnson\", \"Hello\"}};<br> System.out.println(array[1][1]);</i>",
+        "choice1": "John",
+        "choice2": "Hello",
+        "choice3": "Johnson",
+        "choice4": "Hey",
+        "answer": 3
+    },
+    {
+        "question" :"What is the output of this code?<i class = 'code-in-question'><br>String array[ ][ ] = {{3, 5, 8}, {7, 54, 1, 12, 4}};<br> System.out.println(array[0][2]);</i>",
+        "choice1": "5",
+        "choice2": "54",
+        "choice3": "1",
+        "choice4": "8",
+        "answer": 4
+    },
+    {
+        "question" :"How many times can you call a method?",
+        "choice1": "one",
+        "choice2": "only 2",
+        "choice3": "none",
+        "choice4": "as many as you want",
+        "answer": 4
+    },
+    {
+        "question" :"What would the name of the setter method for the class variable named \"age\"",
+        "choice1": "setAge",
+        "choice2": "getAge",
+        "choice3": "Age",
+        "choice4": "initAge",
+        "answer": 1
+    },
+    {
+        "question" :"Which access modifier explicitly says that a method or variable of an object can be accessed by code from outside of the class of that object?",
+        "choice1": "default",
+        "choice2": "public",
+        "choice3": "private",
+        "choice4": "static",
+        "answer": 2
+    },
+    {
+        "question" :"How do you create a variable with the numeric value 5?",
+        "choice1": "int x = 5;",
+        "choice2": "num x = 5",
+        "choice3": "Int x = 5;",
+        "choice4": "x = 5;",
+        "answer": 1
+    },
+    {
+        "question" :"How do you create a variable with the floating number 2.8?",
+        "choice1": "x = 2.8f;",
+        "choice2": "int x = 2.8f;",
+        "choice3": "float x = 2.8f; ",
+        "choice4": "byte x = 2.8f;",
+        "answer": 3
+    },
+    {
+        "question" :"Which method can be used to find the length of a string?",
+        "choice1": "getLength()",
+        "choice2": "length()",
+        "choice3": "getSize()",
+        "choice4": "len()",
+        "answer": 2
+    },
+    {
+        "question" :"To declare an array in Java, define the variable type with:",
+        "choice1": "()",
+        "choice2": "{}",
+        "choice3": "<>",
+        "choice4": "[]",
+        "answer": 4
+    },
+    {
+        "question" :"How do you create a method in Java?",
+        "choice1": "methodName()",
+        "choice2": "methodName[]",
+        "choice3": "methodName.",
+        "choice4": "(methodName)",
+        "answer": 1
+    },
+    {
+        "question" :"Which keyword is used to create a class in Java?",
+        "choice1": "MyClass",
+        "choice2": "class()",
+        "choice3": "class",
+        "choice4": "className",
+        "answer": 3
+    },
+    {
+        "question" :"What is the correct way to create an object called myObj of MyClass?",
+        "choice1": "new myObj = MyClass();",
+        "choice2": "MyClass myObj = new MyClass();",
+        "choice3": "class myObj = new MyClass();",
+        "choice4": "class MyClass = new myObj();",
+        "answer": 2
+    },
+    {
+        "question" :"Which method can be used to find the highest value of x and y?",
+        "choice1": "Math.largest(x,y)",
+        "choice2": "Math.maximum(x,y)",
+        "choice3": "Math.maxNum(x,y)",
+        "choice4": "Math.max(x,y)  ",
+        "answer": 4
+    },
+    {
+        "question" :"Which keyword is used to import a package from the Java API library?",
+        "choice1": "import ",
+        "choice2": "getlib",
+        "choice3": "package",
+        "choice4": "lib",
+        "answer": 1
+    },
+    {
+        "question" :"Which keyword is used to return a value inside a method?",
+        "choice1": "void ",
+        "choice2": "return ",
+        "choice3": "get",
+        "choice4": "break",
+        "answer": 2
+    }
+]

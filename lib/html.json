@@ -1,0 +1,259 @@
+[
+    {
+      "question" :"What is the correct HTML for referring to an external style sheet?",
+      "choice1": "<link rel=\"stylesheet\" type=\"text/css\" file=\"mystyle.css\"> ",
+      "choice2": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\"> ",
+      "choice3": "<stylesheet>mystyle.css</stylesheet>",
+      "choice4": "<style src=\"mystyle.css\">",
+      "answer": 2
+    },
+    {
+      "question": "Inside which HTML element do we put the JavaScript??",
+      "choice1": "<script>",
+      "choice2": "<javascript>",
+      "choice3": "<js>",
+      "choice4": "<scripting>",
+      "answer": 1
+    },
+    {
+      "question": "What is the correct syntax for referring to an external script called 'file.js'?",
+      "choice1": "<script href='file.js'>",
+      "choice2": "<script name='file.js'>",
+      "choice3": "<script src='file.js'>",
+      "choice4": "<script file='file.js'>",
+      "answer": 3
+    },
+    {
+      "question": "What tag is used to create a line-break without an extra space between the text block?",
+      "choice1": "br",
+      "choice2": "escape",
+      "choice3": "linebreak",
+      "choice4": "break",
+      "answer": 1
+    },
+    {
+      "question": "General HTML elements consist of:",
+      "choice1": "the body tag",
+      "choice2": "only content",
+      "choice3": "only tags",
+      "choice4": "opening tag, content, closing tag",
+      "answer": 4
+    },
+    {
+      "question": "Which attribute contains the URL address of the webpage that is loaded after a form submission?",
+      "choice1": "method",
+      "choice2": "id",
+      "choice3": "action",
+      "choice4": "name",
+      "answer": 3
+    },
+    {
+      "question": "what value of the type attribute turns the input tag into submit button?",
+      "choice1": "submit",
+      "choice2": "radio",
+      "choice3": "button",
+      "choice4": "range",
+      "answer": 1
+    },
+    {
+      "question": "What attribute does the frameset tag require to indictate its size?",
+      "choice1": "width and height",
+      "choice2": "rows and cols",
+      "choice3": "thickness and border",
+      "choice4": "height and size",
+      "answer": 2
+    },
+    {
+      "question": "When formatting text, can you get the same result when using different tags?",
+      "choice1": "yes",
+      "choice2": "no",
+      "choice3": "sometimes",
+      "choice4": "probably",
+      "answer": 2
+    },
+    {
+      "question": "What does the href attribute contain?",
+      "choice1": "the URL of the page to be transferred",
+      "choice2": "whether the new page should be opened in the same or a new window",
+      "choice3": "the name of the web page to be transferred",
+      "choice4": "the URL of current page",
+      "answer": 1
+    },
+    {
+      "question": "Choose the correct HTML tag for the largest heading:",
+      "choice1": "<heading>",
+      "choice2": "<h1>",
+      "choice3": "<head>",
+      "choice4": "<h6>",
+      "answer": 2
+    },
+    {
+      "question": "Which of these tags are all table tags?",
+      "choice1": "<table><tr><tt>",
+      "choice2": "<tr><tt><dd>",
+      "choice3": "<table><tr><td>",
+      "choice4": "<thead><body><tr>",
+      "answer": 3
+    },
+    {
+      "question": "What attribute should be used to add an image URL?",
+      "choice1": "url",
+      "choice2": "address",
+      "choice3": "location",
+      "choice4": "src",
+      "answer": 4
+    },
+    {
+      "question": "What two attributes can be used to resize images inside HTML code?",
+      "choice1": "width AND height",
+      "choice2": "quantity AND size",
+      "choice3": "size AND width",
+      "choice4": "size AND height",
+      "answer": 1
+    },
+    {
+      "question": "Which attribute of the link tag contains the URL location that you are trying to link to?",
+      "choice1": "href",
+      "choice2": "location",
+      "choice3": "address",
+      "choice4": "target",
+      "answer": 1
+    },
+    {
+      "question": "What characters does the hexadecimal system consist of?",
+      "choice1": "0-9",
+      "choice2": "0-z",
+      "choice3": "a-z",
+      "choice4": "0-f",
+      "answer": 4
+    },
+    {
+      "question": "Which color model does HTML use?",
+      "choice1": "HSLA",
+      "choice2": "CMYK",
+      "choice3": "RGB",
+      "choice4": "HSB",
+      "answer": 3
+    },
+    {
+      "question": "The header element is appropriate to use...",
+      "choice1": "...inside of the head tag",
+      "choice2": "...inside the footer",
+      "choice3": "...at the top of the document",
+      "choice4": "...inside of the body tag",
+      "answer": 4
+    },
+    {
+      "question": "The text in between the audio tags is:",
+      "choice1": "for supporting multiple audio type",
+      "choice2": "for non-supported browsers",
+      "choice3": "ignored",
+      "choice4": "for supported browsers",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following is not an attribute of the audio element?",
+      "choice1": "repeat",
+      "choice2": "autoplay",
+      "choice3": "src",
+      "choice4": "controls",
+      "answer": 1
+    },
+    {
+      "question": "How many times can HTML5 events be fired?",
+      "choice1": "Only two",
+      "choice2": "One",
+      "choice3": "Multiple",
+      "choice4": "None",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following is not a supported type for the input tag?",
+      "choice1": "hidden",
+      "choice2": "planet",
+      "choice3": "tel",
+      "choice4": "url",
+      "answer": 2
+    },
+    {
+      "question": "The aside element is used to define:",
+      "choice1": "secondary content",
+      "choice2": "comments",
+      "choice3": "a description of a text",
+      "choice4": "main content",
+      "answer": 1
+    },
+    {
+      "question": "How can you open a link in a new tab/browser window?",
+      "choice1": "<a href\"URL\" new>",
+      "choice2": "<a href\"URL\" target = \"new\">",
+      "choice3": "<a href\"URL\" target = \"_blank\">",
+      "choice4": "<a href\"URL\" target = \"n_blank\">",
+      "answer": 3
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,343 @@
+[
+    {
+        "question" :"How do you start writing a while loop in Python?",
+        "choice1": "while (x > y)",
+        "choice2": "while x > y {",
+        "choice3": "x > y while {",
+        "choice4": "while x > y:",
+        "answer": 4
+    },
+    {
+        "question" :"What is a correct syntax to output \"Hello World\" in Python?",
+        "choice1": "echo \"Hello World\"",
+        "choice2": "p(\"Hello World\")",
+        "choice3": "print(\"Hello World\")",
+        "choice4": "echo(\"Hello World\");",
+        "answer": 3
+    },
+    {
+        "question" :"How do you insert COMMENTS in Python code?",
+        "choice1": "#This is a comment",
+        "choice2": "//This is a comment",
+        "choice3": "/*This is a comment*/",
+        "choice4": "<!--This is a comment-->;",
+        "answer": 1
+    },
+    {
+        "question" :"Which collection does not allow duplicate members?",
+        "choice1": "TUPLE",
+        "choice2": "SET",
+        "choice3": "LIST",
+        "choice4": "DICTIONARY",
+        "answer": 2
+    },
+    {
+        "question" :"How do you start writing an if statement in Python?",
+        "choice1": "if x > y: ",
+        "choice2": "if x > y then:",
+        "choice3": "if (x > y)",
+        "choice4": "if(x > y){",
+        "answer": 1
+    },
+    {
+        "question" :"Which one is NOT a legal variable name?",
+        "choice1": "my_var",
+        "choice2": "my-var",
+        "choice3": "_myvar",
+        "choice4": "@myvar",
+        "answer": 2
+    },
+    {
+        "question" :"How do you create a variable with the numeric value 5?",
+        "choice1": "x = int(5)",
+        "choice2": "int x = 5b",
+        "choice3": "x = 5",
+        "choice4": "Both the other answers are correct",
+        "answer": 3
+    },
+    {
+        "question" :"What is the correct file extension for Python files?",
+        "choice1": ".pt",
+        "choice2": ".pyt",
+        "choice3": ".pyth",
+        "choice4": ".py ",
+        "answer": 4
+    },
+    {
+        "question" :"Which of these collections defines a TUPLE?",
+        "choice1": "[\"apple\", \"banana\", \"cherry\"]",
+        "choice2": "(\"apple\", \"banana\", \"cherry\")",
+        "choice3": "{\"apple\", \"banana\", \"cherry\"}",
+        "choice4": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "answer": 2
+    },
+    {
+        "question" :"How do you create a variable with the floating number 2.8?",
+        "choice1": "x = 2.8",
+        "choice2": "x = float(2.8)",
+        "choice3": "Both A and B answers are correct",
+        "choice4": "Both A and B answers are not correct ",
+        "answer": 3
+    },
+    {
+        "question" :"What is the correct syntax to output the type of a variable or object in Python?",
+        "choice1": "print(type(x))",
+        "choice2": "print(typeof(x))",
+        "choice3": "print(typeOf(x))",
+        "choice4": "print(typeof x)",
+        "answer": 1
+    },
+    {
+        "question" :"What is the correct way to create a function in Python?",
+        "choice1": "function myfunction():",
+        "choice2": "def myFunction():",
+        "choice3": "create myFunction():",
+        "choice4": "myFunction = () =>{",
+        "answer": 2
+    },
+    {
+        "question" :"What is a correct syntax to return the first character in a string?",
+        "choice1": "x = sub(\"Hello\", 0, 1)",
+        "choice2": "x = \"Hello\".sub(0, 1)",
+        "choice3": "\"Hello\".get[0]",
+        "choice4": "x = \"Hello\"[0]",
+        "answer": 4
+    },
+    {
+        "question" :"Which method can be used to remove any whitespace from both the beginning and the end of a string?",
+        "choice1": "trim()",
+        "choice2": "len()",
+        "choice3": "strip() ",
+        "choice4": "ptrim()",
+        "answer": 3
+    },
+    {
+        "question" :"Which method can be used to return a string in upper case letters?",
+        "choice1": "toUpperCase() ",
+        "choice2": "upper() ",
+        "choice3": "uppercase()",
+        "choice4": "upperCase()",
+        "answer": 2
+    },
+    {
+        "question" :"Which method can be used to replace parts of a string?",
+        "choice1": "replace()",
+        "choice2": "repl()",
+        "choice3": "switch()",
+        "choice4": "replaceString()",
+        "answer": 1
+    },
+    {
+        "question" :"How do you start writing a for loop in Python?",
+        "choice1": "for each x in y:",
+        "choice2": "for x in y:",
+        "choice3": "for(let i = 0; i<arr.length; i++){",
+        "choice4": "for x > y:",
+        "answer": 2
+    },
+    {
+        "question" :"Which operator is used to multiply numbers?",
+        "choice1": "%",
+        "choice2": "*",
+        "choice3": "x",
+        "choice4": "#",
+        "answer": 2
+    },
+    {
+        "question" :"Which operator can be used to compare two values?",
+        "choice1": "><",
+        "choice2": "<>",
+        "choice3": "=",
+        "choice4": "==",
+        "answer": 4
+    },
+    {
+        "question" :"Which of these collections defines a LIST?",
+        "choice1": "[\"apple\", \"banana\", \"cherry\"]",
+        "choice2": "{\"apple\", \"banana\", \"cherry\"}",
+        "choice3": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "choice4": "(\"apple\", \"banana\", \"cherry\")",
+        "answer": 1
+    },
+    {
+        "question" :"Which of these collections defines a SET?",
+        "choice1": "{\"apple\", \"banana\", \"cherry\"}",
+        "choice2": "[\"apple\", \"banana\", \"cherry\"]",
+        "choice3": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "choice4": "(\"apple\", \"banana\", \"cherry\")",
+        "answer": 1
+    },
+    {
+        "question" :"Which of these collections defines a DICTIONARY?",
+        "choice1": "{\"apple\", \"banana\", \"cherry\"}",
+        "choice2": "[\"apple\", \"banana\", \"cherry\"]",
+        "choice3": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "choice4": "(\"apple\", \"banana\", \"cherry\")",
+        "answer": 3
+    },
+    {
+        "question" :"Which collection is ordered, changeable, and allows duplicate members?",
+        "choice1": "LIST",
+        "choice2": "DICTIONARY",
+        "choice3": "SET",
+        "choice4": "TUPLE",
+        "answer": 1
+    },
+    {
+        "question" :"Which collection does not allow duplicate members?",
+        "choice1": "TUPLE",
+        "choice2": "SET",
+        "choice3": "LIST",
+        "choice4": "DICTIONARY",
+        "answer": 2
+    },
+    {
+        "question" :"How do you start writing an if statement in Python?",
+        "choice1": "if x > y: ",
+        "choice2": "if x > y then:",
+        "choice3": "if (x > y)",
+        "choice4": "if(x > y){",
+        "answer": 1
+    },
+    {
+        "question" :"Which of these collections defines a DICTIONARY?",
+        "choice1": "{\"apple\", \"banana\", \"cherry\"}",
+        "choice2": "[\"apple\", \"banana\", \"cherry\"]",
+        "choice3": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "choice4": "(\"apple\", \"banana\", \"cherry\")",
+        "answer": 3
+    },
+    {
+        "question" :"Which collection is ordered, changeable, and allows duplicate members?",
+        "choice1": "LIST",
+        "choice2": "DICTIONARY",
+        "choice3": "SET",
+        "choice4": "TUPLE",
+        "answer": 1
+    },
+    {
+        "question" :"How do you start writing a for loop in Python?",
+        "choice1": "for each x in y:",
+        "choice2": "for x in y:",
+        "choice3": "for(let i = 0; i<arr.length; i++){",
+        "choice4": "for x > y:",
+        "answer": 2
+    },
+    {
+        "question" :"Which statement is used to stop a loop?",
+        "choice1": "break",
+        "choice2": "return",
+        "choice3": "exit",
+        "choice4": "stop",
+        "answer": 1
+    },
+    {
+        "question" :"Which of these collections defines a LIST?",
+        "choice1": "[\"apple\", \"banana\", \"cherry\"]",
+        "choice2": "{\"apple\", \"banana\", \"cherry\"}",
+        "choice3": "{\"name\": \"apple\", \"color\": \"green\"}",
+        "choice4": "(\"apple\", \"banana\", \"cherry\")",
+        "answer": 1
+    },
+    {
+        "question" :"Which method can be used to return a string in upper case letters?",
+        "choice1": "toUpperCase() ",
+        "choice2": "upper() ",
+        "choice3": "uppercase()",
+        "choice4": "upperCase()",
+        "answer": 2
+    },
+    {
+        "question" :"What is printed by the Python code?<br><i class = 'code-in-question'>print(2 * ('No' + 3*'!'))</i>",
+        "choice1": "No!!!No!",
+        "choice2": "No!No!No!",
+        "choice3": "No!!!No!!!",
+        "choice4": "Nono!!!",
+        "answer": 3
+    },
+    {
+        "question" :"What is printed by the Python code?<br><i class = 'code-in-question'>x = 5<br>y = x + 3<br>x = x - 1<br>z = 10<br>x = x + z<br>print('x: {}, y: {}, z: {}'.format(x, y, z))</i>",
+        "choice1": "x: 12, y: 6, z: 5",
+        "choice2": "x: 14, y: 8, z: 10",
+        "choice3": "x: 4, y: 8, z: -10",
+        "choice4": "x: 4, y: 10, z: 5",
+        "answer": 2
+    },
+    {
+        "question" :"What is printed by the Python code?<br><i class = 'code-in-question'>print(14//4, 14%4, 14.0/4))</i>",
+        "choice1": "3, 2, 3.5",
+        "choice2": "1, 4, 2",
+        "choice3": "0.4, 2, 3.5",
+        "choice4": "error",
+        "answer": 1
+    },
+    {
+        "question" :"What is printed by the Python code?<br><i class = 'code-in-question'>print(2*'No' + 3*'!')</i>",
+        "choice1": "No!!!",
+        "choice2": "Nono!!",
+        "choice3": "No!No!!",
+        "choice4": "Nono!!!",
+        "answer": 4
+    },
+    {
+        "question" :"What is printed by the Python code?<br><i class = 'code-in-question'>x = 2.5679<br>y = 9.0<br>print('Answers {:.3f} and {:.3f}'.format(x, y))</i>",
+        "choice1": "Answers 2.567 and 9.000",
+        "choice2": "Answers 2.568 and 9.000",
+        "choice3": "Answers 2.5678 and 9.0",
+        "choice4": "Answers 2.568 and 9.00",
+        "answer": 2
+    },
+    {
+        "question" :"What is printed by the Python code?<br><i class = 'code-in-question'>d = dict()<br>d['left'] = '<<'<br>d['right'] = '>>'<br>print('{left} and {right} or {right} and {left}'.format(**d))</i>",
+        "choice1": ">> and >> or << and <<",
+        "choice2": "<< and >> or  << and >>",
+        "choice3": "<< and >> or >> and <<",
+        "choice4": ">> and << or >> and <<",
+        "answer": 3
+    },
+    {
+        "question" :"Which exception is raised by this code?<br><i class = 'code-in-question'>print(\"7\" + 4)</i>",
+        "choice1": "ZeroDivisionError",
+        "choice2": "ValueError",
+        "choice3": "TypeError",
+        "choice4": "Synthax error",
+        "answer": 3
+    },
+    {
+        "question" :"Which line of code writes \"Hello world!\" to a file?",
+        "choice1": "write(file, \"Hello world!\")",
+        "choice2": "write(\"Hello world!\", file)",
+        "choice3": "write.file(\"Hello world!\")",
+        "choice4": "file.write(\"Hello world!\")",
+        "answer": 4
+    },
+    {
+        "question" :"If a file write operation is successful, which one of these statements will be true?",
+        "choice1": "file.write(msg) == True",
+        "choice2": "file.write(msg) == len(msg)",
+        "choice3": "file.write(msg) == msg",
+        "choice4": "None of the above",
+        "answer": 2
+    },
+    {
+        "question" :"Which of the following is not a data structure in python?",
+        "choice1": "ENCAPSULATION",
+        "choice2": "SET",
+        "choice3": "LIST",
+        "choice4": "DICTIONARY",
+        "answer": 1
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+

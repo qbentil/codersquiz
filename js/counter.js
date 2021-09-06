@@ -17,3 +17,4 @@
 // .then(res => res.json).then(res =>{
 //     animateValue( 0, res.value, 1000);
 // });
+document.getElementById("year").innerText = new Date().getFullYear();

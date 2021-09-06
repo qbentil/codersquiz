@@ -31,3 +31,5 @@ saveHighScore = (e) =>{
     window.location.assign('index.html');
 }
 
+// Footer
+document.getElementById("year").innerText = new Date().getFullYear();

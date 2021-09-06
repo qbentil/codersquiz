@@ -9,3 +9,6 @@ else{
     }).join("");
     
 }
+
+// footer
+document.getElementById("year").innerText = new Date().getFullYear();

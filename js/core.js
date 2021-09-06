@@ -106,4 +106,6 @@ incrementScore = (num) =>{
     score +=num;
     scoreText.innerText = score
 }
+
+document.getElementById("year").innerText = new Date().getFullYear();
 // startGame();

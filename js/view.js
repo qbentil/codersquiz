@@ -27,3 +27,5 @@ for (let i = 0; i < answeredQuestions.length; i++) {
     // }).join("");
     // console.log(answeredQuestions[i]);
 }
+
+document.getElementById("year").innerText = new Date().getFullYear();

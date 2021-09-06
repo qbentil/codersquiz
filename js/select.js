@@ -6,3 +6,4 @@ getQuestionSet = (e) =>{
 }
 
 
+document.getElementById("year").innerText = new Date().getFullYear();

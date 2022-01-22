@@ -13,6 +13,6 @@ These includes
 **This is for all newbies in programming what wants to learn more
 
 ## SKILLS USED
---- HTML
---- CSS
---- JavaScript
+1. HTML
+2. CSS
+3. JavaScript

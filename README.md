@@ -10,4 +10,9 @@ These includes
 
 ### Learners can review their quiz to see answers to questions they had wrong.
 ### Users can access their leader board to see their previous high scores
-** This is for all newbies in programming what wants to learn more **
+**This is for all newbies in programming what wants to learn more
+
+## SKILLS USED
+--- HTML
+--- CSS
+--- JavaScript

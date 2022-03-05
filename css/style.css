@@ -14,7 +14,7 @@ h1,h2,h3,h4{
     margin-bottom: 1rem;
 }
 h1{
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #00f;
     margin-bottom: 5rem;  
 }
@@ -32,9 +32,15 @@ h3{
     font-size: 2.8rem;
     font-weight: 5009;
 }
+.danger{
+    color: rgb(218, 0, 0);
+}
+.success{
+    color: rgb(0, 218, 0);
+}
 /* utilities */
 .container, .footer, .container-alt{
-    width: 100vw;
+    width: 100vw ;
     height: 93vh;
     display: flex;
     justify-content: center;
@@ -42,7 +48,7 @@ h3{
     max-width: 80rem;
     margin: 0 auto;
     padding: 2rem;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 .container-alt{
     width: 100vw;
@@ -71,6 +77,9 @@ h3{
 }
 .container > *{
     width: 100%;
+}
+.flex{
+    
 }
 .flex-column{
     display: flex;
@@ -127,13 +136,14 @@ small>*{
     font-weight: bold;
 }
 #me{
-    width: 30rem;
-    /* height: 20rem; */
+    width: 25rem;
+    height: 25rem;
     border: none;
-    /* border: 0.2rem solid blue; */
-    /* border-radius: 100vh; */
+    border: 0.2rem solid blue;
+    border-radius: 100vh;
 }
 .code{
+    font-size: 3.5rem;
     color: #f00 !important;
 }
 .dev{
@@ -199,3 +209,12 @@ form {
       color: #fff;
   }
 
+
+
+.review-container{
+    overflow-y: auto !important;
+    width: 80vw !important;
+    margin: auto;
+    height: 100vh;
+    overflow: auto !important;
+}

@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+  }
+  h2.question{
+    font-size: 22px;
+    /* width: 100%; */
+    margin-left: 30px;
+  }
+  /* Position the image container (needed to position the left and right arrows) */
+  .rev-container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    min-height: 42vh;
+    margin: auto 10px;
+    /* width: 100vw ; */
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(38, 0, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: #fff;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #00f;
+    padding: 2px 16px;
+    color: white;
+    width: 80vw;
+    margin: auto;
+  }
+  #caption{
+      color: #fff;
+      font-size: 12px;
+      font-weight: 400;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    margin: auto 1px;
+    width: 16.66%;
+  }
+ xmp{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 50px;
+    /* float: left; */
+    display: block;
+
+  }
+  .choice, .answer{
+    font-size: 13px;
+  }
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  .btn-container{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .btn{
+      margin: 5px auto;
+      /* padding: 10px; */
+      font-size: 12px;
+      border: none;
+      outline: 0;
+      background: #00f;
+      color: #fff;
+      width: 100%;
+  }
+  /* .flex{
+    display: flex;
+    justify-content: space-around;
+  } */
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .up{
+    float: left;
+    width: 60vw;
+  }
+.back{
+  background: #f00;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: none;
+  outline: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  /* float: left; */
+  /* margin: 0px 0 0 0 !important; */
+}
+.back:hover{
+  background: #f2f2f2;
+  color: #f00;
+}
+  /* .mySlides .question
+  {
+      color: #00f;
+      font-size: 50px;
+  } */

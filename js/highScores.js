@@ -5,10 +5,7 @@ if(highScores.length <=0){
 }
 else{
     highScoresList.innerHTML = highScores.map(score =>{
-        return `<li class = "high-score"><span>${score.name}</span><span> ${score.score}</span></li>`
+        return `<li class = "high-score"><span>${score.name}</span><span>${score.cat.toUpperCase()}</span><span> ${score.score}</span></li>`
     }).join("");
     
 }
-
-// footer
-document.getElementById("year").innerText = new Date().getFullYear();

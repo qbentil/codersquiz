@@ -25,6 +25,7 @@ fetchQuestions = (param) =>{
         return res.json();
     })
     .then((loadedQuestions) => {
+        console.log(loadedQuestions)
         questions = loadedQuestions;
         startGame();
         // localStorage.removeItem("selectedCategory")
@@ -95,6 +96,8 @@ choices.forEach(choice =>{
             incrementScore(CORRECT_BONUS)
         }
         // console.log(answeredQuestions);
+        // storeing answred questions and choice selected
+        localStorage.setItem('AnsweredQuestions', JSON.stringify(answeredQuestions));
         selectedChoice.parentElement.classList.add(classToApply)
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply)
@@ -106,6 +109,4 @@ incrementScore = (num) =>{
     score +=num;
     scoreText.innerText = score
 }
-
-document.getElementById("year").innerText = new Date().getFullYear();
 // startGame();

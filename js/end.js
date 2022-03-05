@@ -2,12 +2,16 @@ const username = document.getElementById('username');
 const saveScoreBtn = document.getElementById('saveScoreBtn');
 const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem("mostRecentScore")
+const category = localStorage.getItem("selectedCategory");
+let questions = []
+questions = JSON.parse(localStorage.getItem("AnsweredQuestions"))
 
 // set final score
 finalScore.innerText = mostRecentScore;
 const MAX_HIGH_SCORES = 5;
 // HIGH SCORES
 var user = null;
+// console.log(questions);
 const highScores = JSON.parse(localStorage.getItem("highscores")) || [];
 username.addEventListener("keyup", ()=>{
     saveScoreBtn.disabled = !username.value
@@ -21,7 +25,8 @@ saveHighScore = (e) =>{
 
     const score = {
         score:mostRecentScore,
-        name: username.value
+        name: username.value,
+        cat: category
     }
     highScores.push(score)
     highScores.sort((a,b) => b.score - a.score)
@@ -31,5 +36,3 @@ saveHighScore = (e) =>{
     window.location.assign('index.html');
 }
 
-// Footer
-document.getElementById("year").innerText = new Date().getFullYear();

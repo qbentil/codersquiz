@@ -1,5 +1,5 @@
 # CodersQuiz 
-## DEMO [https://codersquiz.netlify.app] 
+<!-- ## DEMO [https://codersquiz.netlify.app]  -->
 This is a JavaScipt Quiz Application.
 
 ## UI

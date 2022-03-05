@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{Coders}  Quiz -Review Quiz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/review.css">
+          <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+</head>
+<body>
+    <div class="review">
+        <div id="loader" class="hidden"></div>
+        <div class="text-center">
+            <div id="home" class="flex-center flex-column">
+                <div class="dev flex-center flex-column">
+                    <small id="welcome"></small>
+                </div>
+                <button onclick="window.location.assign('/end.html')" class="back">Close</button>
+                <h1><span class="text-primary"> Quiz Review</h1>
+            </div>
+        </div>
+        <div class="review-item flex-center flex-column">
+            <!-- Container for the image gallery -->
+            <div class="rev-container">
+                <div id="slides">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+                <!-- Image text -->
+                <div class="caption-container">
+                <p id="caption"></p>
+                </div>
+            
+                <!-- Thumbnail images -->
+                <div class="btn-container row flex-center">
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(1)" data-item = "Question 1">1</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(2)" data-item = "Question 2">2</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(3)" data-item = "Question 3">3</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(4)" data-item = "Question 4">4</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(5)" data-item = "Question 5">5</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(6)" data-item = "Question 6">6</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(7)" data-item = "Question 7">7</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(8)" data-item = "Question 8">8</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(9)" data-item = "Question 9">9</button>
+                </div>
+                <div class="column">
+                    <button class="demo cursor btn" onclick="currentSlide(10)" data-item = "Question 10">10</button>
+                </div>
+                </div>
+            </div>
+  
+        </div>
+    </div>
+    <div class="footer">
+        <div id="footer-body" class="flex-center flex-column">
+            <p>PUKKA TECHNOLOGIES &copy; <span id="year">                <script>
+                    document.write(new Date().getFullYear());
+                </script></span></p>
+        
+            <a href="http://qbentil.netlify.app">Bentil {Codes}</a>
+        </div>
+    </div>
+    <script src="./js/review.js"></script>
+</body>
+</html>

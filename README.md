@@ -1,6 +1,6 @@
 # CodersQuiz 
 <!-- ## DEMO [https://codersquiz.netlify.app]  -->
-This is a JavaScipt Quiz Application.
+Online Platform that helps beginners in software development. TO take skills challenging Quiz each day
 
 ## UI
 ![image](https://user-images.githubusercontent.com/55560024/156901390-82bfee3a-b6bd-4ffc-a315-653a19e4d3b7.png)

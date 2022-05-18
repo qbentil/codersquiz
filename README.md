@@ -15,7 +15,9 @@ These includes
 4. PHP
 5. Java, etc.
 
-### Learners can review their quiz to see answers to questions they had wrong.
+## Functionalities
+- Learners can review their quiz to see answers to questions they had wrong.
+- Added Sound play on Answer Clicks
 ### Users can access their leader board to see their previous high scores
 **This is for all newbies in programming what wants to learn more**
 

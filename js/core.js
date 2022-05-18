@@ -12,6 +12,10 @@ let questionCounter = 0;
 let availableQuestions = []
 let questions = []
 let answeredQuestions = []
+
+const CORRECTSOUND = new Audio("../sounds/sound_correct.mp3")
+const INCORRECTSOUND = new Audio("../sounds/sound_incorrect.mp3")
+
 const selectedCategory = localStorage.getItem('selectedCategory')
 // const quiz = document.getElementById('quiz');
 // quiz.innerText = selectedCategory;
@@ -94,6 +98,9 @@ choices.forEach(choice =>{
 
         if(classToApply == 'correct'){
             incrementScore(CORRECT_BONUS)
+            CORRECTSOUND.play()
+        }else{
+            INCORRECTSOUND.play()
         }
         // console.log(answeredQuestions);
         // storeing answred questions and choice selected

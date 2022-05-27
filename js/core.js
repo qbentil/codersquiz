@@ -13,9 +13,11 @@ let availableQuestions = []
 let questions = []
 let answeredQuestions = []
 
+// constants
 const CORRECTSOUND = new Audio("../sounds/sound_correct.mp3")
 const INCORRECTSOUND = new Audio("../sounds/sound_incorrect.mp3")
-
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 10;
 const selectedCategory = localStorage.getItem('selectedCategory')
 // const quiz = document.getElementById('quiz');
 // quiz.innerText = selectedCategory;
@@ -29,8 +31,8 @@ fetchQuestions = (param) =>{
         return res.json();
     })
     .then((loadedQuestions) => {
-        console.log(loadedQuestions)
         questions = loadedQuestions;
+        // console.log(questions)
         startGame();
         // localStorage.removeItem("selectedCategory")
     })
@@ -41,9 +43,6 @@ fetchQuestions = (param) =>{
 play = () =>{
     fetchQuestions(selectedCategory)
 }
-// constants
-const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 10;
 
 startGame = () =>{
     questionCounter = 0;
@@ -86,14 +85,15 @@ getNewQuestion = () => {
 }
 // get user selected answer
 choices.forEach(choice =>{
-    choice.addEventListener("click", e =>{
-        if(!acceptingAnswers)return;
+    choice.addEventListener("click", (e) =>{
+        if(!acceptingAnswers) return;
 
         acceptingAnswers = false;
         const selectedChoice = e.target;
-        const selectedAnswer = selectedChoice.dataset['number'];
+        const selectedAnswer = parseInt(selectedChoice.dataset['number']);
         // console.log(selectedAnswer);
         answeredQuestions.push({'question': currentQuestion,'choice': selectedAnswer})
+        // console.log('AQ', answeredQuestions);
         const classToApply = selectedAnswer == currentQuestion.answer?"correct": 'incorrect';
 
         if(classToApply == 'correct'){

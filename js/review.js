@@ -1,6 +1,6 @@
 const answeredQuestions = JSON.parse(localStorage.getItem('AnsweredQuestions'))
 const slidesList = document.getElementById('slides');
-console.log(answeredQuestions);
+// console.log(answeredQuestions);
 // Pull Answered Questions from localstorage
 if(answeredQuestions.length <=0){
   slidesList.innerHTML =  `<li class = "high-score text-center"><span>High scores list is empty</span></li>`;

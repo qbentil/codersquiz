@@ -32,7 +32,7 @@ fetchQuestions = (param) =>{
     })
     .then((loadedQuestions) => {
         questions = loadedQuestions;
-        console.log(questions)
+        // console.log(questions)
         startGame();
         // localStorage.removeItem("selectedCategory")
     })
@@ -93,7 +93,7 @@ choices.forEach(choice =>{
         const selectedAnswer = parseInt(selectedChoice.dataset['number']);
         // console.log(selectedAnswer);
         answeredQuestions.push({'question': currentQuestion,'choice': selectedAnswer})
-        console.log('AQ', answeredQuestions);
+        // console.log('AQ', answeredQuestions);
         const classToApply = selectedAnswer == currentQuestion.answer?"correct": 'incorrect';
 
         if(classToApply == 'correct'){
